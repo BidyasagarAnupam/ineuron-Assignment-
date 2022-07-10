@@ -11,8 +11,8 @@ int main()
     float area;
     printf("Enter the radius of circle: ");
     scanf("%d", &r);
-    //  formula to find area of circle (2*pi*r)
-    area = 2 * 3.141 * r;
+    //  formula to find area of circle (pi*r*r)
+    area = 3.141 * r*r;
     printf("Area of circle is %f having the radius %d", area, r);
     return 0;
 }
