@@ -8,6 +8,6 @@ int main() {
     printf("Enter the price in INR: ");
     scanf("%d", &inr);
 
-    printf("%d INR = %f", inr, (inr*76.23));
+    printf("Rs %d = $%.3f", inr, (inr/76.23));
     return 0;
 }
