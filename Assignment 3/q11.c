@@ -5,15 +5,14 @@ examination or failed.
 */
 #include<stdio.h>
 int main() {
-    int mark;
-    for(int i=1; i<=5; i++) {
-        printf("Enter your mark out of 100: ");
-        scanf("%d", &mark);
-        if(mark >= 33) {
-            printf("You are Passed\n");
-        } else {
-            printf("You are fail\n");
-        }
+    int sub1, sub2, sub3, sub4, sub5;;
+    printf("Enter your 5 subject marks out of 100: ");
+    scanf("%d%d%d%d%d", &sub1, &sub2, &sub3, &sub4, &sub5);
+    if (sub1 >= 33 && sub2 >= 33 && sub3 >= 33 && sub4 >= 33 && sub5 >= 33) {
+        printf("You are Passed\n");
     }
-return 0;
+    else {
+        printf("You are fail\n");
+    }
+    return 0;
 }
