@@ -1,8 +1,8 @@
 // 7. Write a program to print the first 10 even natural numbers in reverse order
 #include<stdio.h>
 int main() {
-    for(int i=20; i>=2; i-=2) {
-        printf("%d ", i);
+    for(int i=10; i>=1; i--) {
+        printf("%d ", i*2);
     }
 return 0;
 }
