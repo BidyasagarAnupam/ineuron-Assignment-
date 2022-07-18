@@ -1,0 +1,9 @@
+// 4. Write a program to calculate HCF of two numbers
+#include<stdio.h>
+int main() {
+    int num1,num2;
+    printf("Enter two number: ");
+    scanf("%d %d", &num1, &num2);
+    // TODO DOUBT....
+return 0;
+}
