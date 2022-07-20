@@ -5,7 +5,7 @@ int main() {
     int num, temp = 0, i;
     printf("Enter a number: ");
     scanf("%d", &num);
-    for (i = 2; i < num; i++) {
+    for (i = 2; i <= num/2; i++) {
         if (!(num % i)) {
             temp++;
             break;
