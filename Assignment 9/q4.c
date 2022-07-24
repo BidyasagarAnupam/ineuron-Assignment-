@@ -47,7 +47,7 @@ int main() {
     case 'c':
         printf("Enter lenght of three sides a triangle: ");
         scanf("%d %d %d", &side1, &side2, &side3);
-        if (side1 == side2 == side3) {
+        if ((side1 == side2) && (side2 == side3)) {
             printf("The Triangle is \"Equilateral Triangle\"");
         }
         else {
