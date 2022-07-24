@@ -2,17 +2,16 @@
 // Switch Statement.
 #include<stdio.h>
 int main() {
-    int num, temp;
+    int num;
     printf("Enter a number: ");
     scanf("%d", &num);
-    temp = num%2;
-    switch (temp)
+    switch (num % 2 == 0)
     {
-    case 0:
-        num = num+1;
+    case 1:
+        num = num + 1;
         printf("%d", num);
         break;
-    
+
     default:
         printf("Its an Odd number already");
         break;
