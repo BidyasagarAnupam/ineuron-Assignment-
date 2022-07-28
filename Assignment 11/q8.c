@@ -10,6 +10,8 @@
 
 //  Function declaration
 void pascalTriangle(int);
+int factorial(int, int);
+int combination(int, int);
 
 // main function
 int main() {
@@ -20,16 +22,39 @@ int main() {
     return 0;
 }
 
+// function for combination
+int combination(int n, int r) {
+    if (n == 0 && r == 0)
+        return 1;
+    return factorial(n, r) / factorial(r, r);
+}
+
+//  function for fcatorial
+int factorial(int num, int stop_factorial) {
+    int fact = 1;
+    if (num > 0) {
+        while (stop_factorial != 0) {
+            fact = fact * num;
+            num--;
+            stop_factorial--;
+        }
+    }
+    return fact;
+}
+
+
 //  Pascal Triangle Function
 void pascalTriangle(int row) {
     int k = row + 1, l = k, count = 1;
-    int pascalNumber = 1; //TODO...................................         .........      .........   
     for (int i = 1; i <= row; i++) {
+        int col = 0;
         for (int j = 1; j <= row + (row - 1); j++) {
             if (j >= k - i && j <= l - i) {
                 if (count)
                 {
-                    printf("* ");
+                    // printf("* ");
+                    printf("%d ", combination(i - 1, col));
+                    col++;
                     count = 0;
                 }
                 else
