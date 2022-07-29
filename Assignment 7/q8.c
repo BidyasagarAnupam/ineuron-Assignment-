@@ -8,7 +8,7 @@ int main() {
     for (i = num + 1; i >= 2; i++) {
 
         temp = 0;
-        for (j = 2; j < i/2; j++) {
+        for (j = 2; j <= i/2; j++) {
             if (!(i % j)) {
                 temp++;
                 break;
