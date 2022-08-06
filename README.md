@@ -7,7 +7,7 @@ This is the repo where I upload the question and answer of Assignment
 
 ## Question of Assignment 17
 
-**### String Basics in C Language:**
+### String Basics in C Language:
 
 #### Question 1
 
@@ -50,7 +50,7 @@ Write a C program to sort a string array in ascending order.
 Write a program in C to Find the Frequency of Characters.
 
 
-**## Authors**
+## Authors
 - [Github@bidyasagar](https://github.com/BidyasagarAnupam)
 - [LinkedIn@bidyasagar](https://www.linkedin.com/in/bidyasagar-mohapatra-b86581203/)
 
