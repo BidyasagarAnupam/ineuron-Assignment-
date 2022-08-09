@@ -4,6 +4,7 @@
         "*.jsx": "javascriptreact",
         "q3": "c",
         "cstdio": "c",
-        "STDIO.H": "cpp"
+        "STDIO.H": "cpp",
+        "Q3.C": "cpp"
     }
 }
