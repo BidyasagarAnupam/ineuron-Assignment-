@@ -90,6 +90,50 @@ Write a function to reverse a string word wise. (For example if the given string
 
 Write a function to find the repeated character in a given string.
 
+## Question of Assignment 19
+
+### Handling multiple Strings in C Language
+
+#### Question 1
+
+Write a program to find the number of vowels in each of the 5 strings stored in two dimensional arrays, taken from the user.
+
+#### Question 2
+
+Write a program to sort 10 city names stored in two dimensional arrays, taken from the user.
+
+#### Question 3
+
+Write a program to read and display a 2D array of strings in C language.
+
+#### Question 4
+
+Write a program to search a string in the list of strings.
+
+#### Question 5
+
+Suppose we have a list of email addresses, check whether all email addresses have ‘@’ in it. Print the odd email out.
+
+#### Question 6
+
+Write a program to print the strings which are palindrome in the list of strings.
+
+#### Question 7
+
+Write a function to check whether a given string is palindrome or not.
+
+#### Question 8
+
+Write a function to count words in a given string
+
+#### Question 9
+
+Write a function to reverse a string word wise. (For example if the given string is “Mysirg Education Services” then the resulting string should be “Services Education Mysirg” )
+
+#### Question 10
+
+Write a function to find the repeated character in a given string.
+
 ## Authors
 
 - [Github@bidyasagar](https://github.com/BidyasagarAnupam)
