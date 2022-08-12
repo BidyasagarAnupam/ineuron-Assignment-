@@ -4,13 +4,17 @@
 // function defination
 void frequency(int*, int);
 
+//  function defination for advance logic
+void frequencyAnothermethod(int*, int);
+
 // main function
 int main() {
     int size;
     printf("Enter the size of the Array: ");
     scanf("%d", &size);
     int arr[size];
-    frequency(arr, size);
+    // frequency(arr, size);
+    frequencyAnothermethod(arr, size);
     return 0;
 }
 
@@ -34,4 +38,26 @@ void frequency(int arr[], int size) {
         printf("The frequency of %d is %d\n", arr[i], frequency);
     }
 
+}
+
+//  another better approach
+void frequencyAnothermethod(int arr[], int size) {
+    int frequencyArray[50] = { 0 };
+
+    //  take user from input
+    printf("Entre %d numbers:: ", size);
+    for (int i = 0; i < size; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // main logic
+    for (int i = 0; i < size; i++) {
+        frequencyArray[arr[i]]++;
+    }
+
+    for (int i = 0; i < 50; i++) {
+        if (frequencyArray[i] != 0) {
+            printf("Frequency of %d is %d\n", i, frequencyArray[i]);
+        }
+    }
 }
