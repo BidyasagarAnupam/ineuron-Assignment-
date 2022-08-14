@@ -120,15 +120,15 @@ Write a program to print the strings which are palindrome in the list of strings
 
 #### Question 7
 
-Write a function to check whether a given string is palindrome or not.
+From the list of IP addresses, check whether all ip addresses are valid.
 
 #### Question 8
 
-Write a function to count words in a given string
+Given a list of words followed by two words, the task is to find the minimum distance between the given two words in the list of words. (Example : s = {“the”,”quick”,”brown”,”fox”,”quick”} word1 = “the”, word2 = “fox”, OUTPUT : 1 )
 
 #### Question 9
 
-Write a function to reverse a string word wise. (For example if the given string is “Mysirg Education Services” then the resulting string should be “Services Education Mysirg” )
+Write a program that asks the user to enter a username. If the username entered is one of the names in the list then the user is allowed to calculate the factorial of a number. Otherwise, an error message is displayed
 
 #### Question 10
 
