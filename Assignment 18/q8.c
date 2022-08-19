@@ -18,7 +18,7 @@ int main() {
 int wordCount(char str[]) {
     int count = 0;
     for (int i = 0; str[i]; i++) {
-        if (str[i] == ' ')
+        if (str[i] == ' ' && str[i+1] != ' ')
             count++;
     }
     return count;
