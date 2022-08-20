@@ -6,6 +6,7 @@
         "cstdio": "c",
         "STDIO.H": "cpp",
         "Q3.C": "cpp",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "cstdlib": "c"
     }
 }
