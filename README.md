@@ -134,6 +134,52 @@ Write a program that asks the user to enter a username. If the username entered 
 
 Create an authentication system. It should be menu driven.
 
+
+## Question of Assignment 20
+
+### Pointers
+
+#### Question 1
+
+Write a function to swap values of two in variables of calling function. (TSRS)
+
+#### Question 2
+
+Write a function to swap strings of two char arrays of calling functions. (TSRS)
+
+#### Question 3
+
+Write a function to sort an array of int type values. [ void sort(int *ptr,int size); ]
+
+#### Question 4
+
+Write a program in C to demonstrate how to handle the pointers in the program.
+
+#### Question 5
+
+Write a program to find the maximum number between two numbers using a pointer
+
+#### Question 6
+
+Write a program to calculate the length of the string using a pointer
+
+#### Question 7
+
+Write a program to count the number of vowels and consonants in a string using a
+pointer.
+
+#### Question 8
+
+Write a program to compute the sum of all elements in an array using pointers.
+
+#### Question 9
+
+Write a program to print the elements of an array in reverse order.
+
+#### Question 10
+
+Write a program to print a string in reverse using a pointer
+
 ## Authors
 
 - [Github@bidyasagar](https://github.com/BidyasagarAnupam)
