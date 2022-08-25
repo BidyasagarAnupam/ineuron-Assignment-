@@ -179,6 +179,54 @@ Write a program to print the elements of an array in reverse order.
 #### Question 10
 
 Write a program to print a string in reverse using a pointer
+## Question of Assignment 21
+
+### Structure
+
+#### Question 1
+
+Define a structure Employee with member variables id, name, salary
+
+#### Question 2
+
+Write a function to take input employee data from the user. [ Refer structure from question 1 ]
+
+#### Question 3
+
+Write a function to display employee data. [ Refer structure from question 1 ]
+
+#### Question 4
+
+Write a function to find the highest salary employee from a given array of 10
+employees. [ Refer structure from question 1]
+
+#### Question 5
+
+Write a function to sort employees according to their salaries [ refer structure from question 1]
+
+#### Question 6
+
+Write a function to sort employees according to their names [refer structure from
+question 1]
+
+#### Question 7
+
+Write a program to calculate the difference between two time periods.
+
+#### Question 8
+
+Write a program to store information of 10 students and display them using structure.
+
+#### Question 9
+
+Write a program to store information of n students and display them using structure
+
+#### Question 10
+
+Write a program to enter the marks of 5 students in Chemistry, Mathematics and
+Physics (each out of 100) using a structure named Marks having elements roll no.,
+name, chem_marks, maths_marks and phy_marks and then display the percentage
+of each student.
 
 ## Authors
 
