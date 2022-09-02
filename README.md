@@ -2,6 +2,8 @@
 
 This is the repo where I upload the question and answer of Assignment
 
+# Assignment of C
+
 ## Question of Assignment 17
 
 ### String Basics in C Language:
@@ -227,6 +229,39 @@ Write a program to enter the marks of 5 students in Chemistry, Mathematics and
 Physics (each out of 100) using a structure named Marks having elements roll no.,
 name, chem_marks, maths_marks and phy_marks and then display the percentage
 of each student.
+
+
+# C++ Assignment
+
+## Question of Assignment 23
+
+### Basics of C++
+
+#### Question 1
+Write a C++ program to print Hello MySirG on the screen.
+#### Question 2
+Write a C++ program to print Hello on the first line and MySirG on the second line
+using endl.
+
+#### Question 3
+Write a C++ program to calculate the sum of two numbers.
+
+#### Question 4
+Write a C++ program to calculate the area of a circle
+#### Question 5
+Write a C++ program to calculate the volume of a cuboid.
+#### Question 6
+Write a C++ program to calculate an average of 3 numbers.
+
+#### Question 7
+Write a C++ program to calculate the square of a number
+
+#### Question 8
+Write a C++ program to swap values of two int variables without using third variable
+#### Question 9
+Write a C++ program to find the maximum of two numbers.
+#### Question 10
+Write a C++ program to add all the numbers of an array of size 10.
 
 ## Authors
 
